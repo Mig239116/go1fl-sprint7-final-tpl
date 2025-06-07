@@ -83,7 +83,7 @@ func TestCafeSearch(t *testing.T) {
 
 	requests := []struct {
 		search    string // передаваемое значение search
-		wantCount int    // ожидаемое количество кафе в ответе
+		wantCount int  
 	}{
 		{"фасоль", 0},
 		{"кофе", 2},
